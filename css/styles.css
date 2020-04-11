@@ -1,0 +1,320 @@
+@font-face {
+  font-family: GT_Haptik;
+  src: url(../fonts/GT-Haptik-Medium.otf);
+    font-weight: medium;
+}
+@font-face {
+  font-family: GT_Haptik;
+  src: url(../fonts/GT-Haptik-Regular.otf);
+    font-weight: normal;
+}
+@font-face {
+  font-family: GT_Haptik;
+  src: url(../fonts/GT-Haptik-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+  font-family: FreightSans;
+  src: url(../fonts/FreigSanProBook.otf);
+    font-weight: normal;
+}
+@font-face {
+  font-family: FreightSans;
+  src: url(../fonts/FreigSanProMed.otf);
+    font-weight: medium;
+}
+@font-face {
+  font-family: FreightSans;
+  src: url(../fonts/FreigSanProSem.otf);
+    font-weight: 450;
+}
+#wrapper{
+    width: auto;
+    margin: 0 auto;
+     grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: repeat(12, 1fr;)
+
+}
+
+.logo {
+  grid-column: 5;
+  background-image: url("https://i.ibb.co/Byv58YZ/LOGO.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10vh;
+    width: 400px;
+    padding-left: 70%;
+}
+h2{
+    position:relative;
+width: 594px;
+height: 32px;
+left: 61px;
+/*top: 155px;*/
+
+font-family: GT_Haptik;
+font-style: medium;
+font-weight: 550;
+font-size: 20px;
+line-height: 150.6%;
+/* or 36px */
+    color: #432620;
+}
+
+h5{
+    position: relative;
+    left: 61px;
+    font-family: GT_Haptik;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+     color: #432620;
+    width: 50%;
+    margin-top:15%;
+    margin-bottom:2%;
+}
+
+.hero1{
+    margin-top: 5%;
+    width:100%;
+    height: 350px;
+    display: grid;
+   
+}
+.heroimg{
+    width:100%;
+    z-index:1;
+    grid-column-start:1;
+    grid-column-end:12;
+}
+.herotext{
+width: 250px;
+height: 66px;
+    padding-left: 10%;
+  margin-bottom: -30%;
+    z-index: 50;
+font-family: GT Haptik;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 60px;
+color: #232020;
+    grid-column-start:1;
+    margin-top: -30%;
+
+}
+.learnmore {
+    z-index: 90;
+  background-color: #9F8189;
+    height:48px;
+    width: 215px;
+box-shadow: 2px 2px 16px rgba(67, 38, 32, 0.08);
+border-radius: 36px;
+  border: none;
+    color: #F2FCF4;
+    font-family: GT_Haptik;
+font-style: normal;
+font-size: 20px;
+   text-align: center;
+    grid-column:10;
+    z-index:90;
+    margin-top: -30%;
+
+}
+
+.category{
+    width:100%;
+    margin-top: -3%;
+    margin-bottom:-20%;
+    grid-column-start:1;
+    grid-column-end:12;
+}
+.categ{
+    grid-column:2;
+}
+
+.brandimg{
+    width:100%;
+    z-index: 1;
+    grid-column-start:1;
+    grid-column-end:12;
+    margin-top: 30%;
+}
+.caption{
+width: 498px;
+    font-family: GT_Haptik;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 60px;
+grid-column:1;
+color: #232020;
+    margin-top: 20%;
+    padding-left: 5%;
+    z-index:90;
+    position:absolute;
+top: 1300px;
+}
+.view {
+    z-index: 90;
+  background-color: #9F8189;
+    height:40px;
+    width: 276px;
+box-shadow: 2px 2px 16px rgba(67, 38, 32, 0.08);
+border-radius: 36px;
+  border: none;
+    color: #F2FCF4;
+    font-family: GT_Haptik;
+font-style: normal;
+font-size: 20px;
+   text-align: center;
+    margin-right: 5%;
+    padding-top: 15px;
+    text-decoration: none;
+grid-column:10;
+    position:absolute;
+ left:920px;
+    top:1650px;
+}
+a.view:hover{
+    background-color: #432620;
+    transition: 0.5s;
+}
+
+.merch{
+    margin-top: 5%;
+    grid-column:2;
+}
+.merchimg{
+    width: 100%;
+    grid-column-start:1;
+    grid-column-end:12;
+}
+.column {
+  float: left;
+  width: 23%;
+  padding: 10px;
+    margin-top:5%;
+}
+.app{
+    width:100%;
+    margin-top: 10%;
+    margin-bottom:-20%;
+    grid-column-start: 1;
+    grid-column-end:12;
+}
+.caption1{
+
+width: 498px;
+    font-family: GT_Haptik;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 60px;
+    grid-column-start:1;
+    padding-left:5%;
+
+color: #232020;
+
+}
+.processe{
+    font-family: GT_Haptik;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 60px;
+color: #9E8189;
+    grid-column-start: 1;
+    padding-left:5%;
+    text-decoration: none;
+position:relative;
+  top:150px;
+}
+a.process:hover{
+    color: #806460;
+    transition: 0.5s;
+}
+footer{
+    margin-top: 15%;
+    width: 1440px;
+height: 300px;
+    background: #FFFFFF;
+box-shadow: 2px 2px 32px rgba(67, 38, 32, 0.08);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    grid-column-start:1;
+    grid-column-
+}
+.end{
+    font-family: GT_Haptik;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+    width:50%;
+    margin-top: 10%;
+position: relative;
+    left: 450px;
+color: #806460;
+
+}
+.copy{
+    font-family: GT_Haptik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12pt;
+    width: 50%;
+    position: relative;
+    left: 450px;
+    color: #806460;
+    margin-bottom: 5%;
+}
+.brandpage{
+    width: 100%;
+    margin-top: 5%;
+}
+.full{
+    font-family: GT_Haptik;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+    width:50%;
+position: relative;
+   float: right;
+    margin-top: 5%;
+color: #9E8189;
+    text-decoration: none;
+    
+}
+.full:hover{
+    color: #806460;
+    transition: 0.5s;
+    
+}
+
+.exit{
+    font-family: GT_Haptik;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+    width:50%;
+position: relative;
+    margin-top: 20%;
+    left: 57px;
+    top: 50px;
+  padding-bottom: 10%;
+color: #9E8189;
+    text-decoration: none;
+    
+}
+.exit:hover{
+    color: #806460;
+    transition: 0.5s;
+}
+
+
+
+
