@@ -94,7 +94,7 @@ height: 66px;
     padding-left: 10%;
   margin-bottom: -30%;
     z-index: 50;
-font-family: GT Haptik;
+font-family: GT_Haptik;
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
@@ -132,6 +132,7 @@ font-size: 20px;
 }
 .categ{
     grid-column:2;
+    margin-top:15%;
 }
 
 .brandimg{
@@ -139,7 +140,7 @@ font-size: 20px;
     z-index: 1;
     grid-column-start:1;
     grid-column-end:12;
-    margin-top: 30%;
+
 }
 .caption{
 width: 498px;
@@ -150,17 +151,17 @@ font-size: 48px;
 line-height: 60px;
 grid-column:1;
 color: #232020;
-    margin-top: 20%;
     padding-left: 5%;
     z-index:90;
-    position:absolute;
-top: 1300px;
+    position:relative;
+    top:550px;
+    
 }
 .view {
-    z-index: 90;
+      z-index: 99;
   background-color: #9F8189;
-    height:40px;
-    width: 276px;
+    height:48px;
+    width: 215px;
 box-shadow: 2px 2px 16px rgba(67, 38, 32, 0.08);
 border-radius: 36px;
   border: none;
@@ -169,15 +170,15 @@ border-radius: 36px;
 font-style: normal;
 font-size: 20px;
    text-align: center;
-    margin-right: 5%;
-    padding-top: 15px;
-    text-decoration: none;
-grid-column:10;
-    position:absolute;
- left:920px;
-    top:1650px;
+    grid-column:12;
+    z-index:90;
+    float:right;
+position:relative;
+    top:450px;
+    right:20px;
 }
-a.view:hover{
+
+.view:hover{
     background-color: #432620;
     transition: 0.5s;
 }
@@ -237,14 +238,14 @@ a.process:hover{
 }
 footer{
     margin-top: 15%;
-    width: 1440px;
+    width: 100%;
 height: 300px;
     background: #FFFFFF;
 box-shadow: 2px 2px 32px rgba(67, 38, 32, 0.08);
     padding-top: 32px;
     padding-bottom: 32px;
     grid-column-start:1;
-    grid-column-
+    grid-column-end: 12;
 }
 .end{
     font-family: GT_Haptik;
